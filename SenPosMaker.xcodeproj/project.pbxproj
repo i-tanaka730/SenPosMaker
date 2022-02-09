@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0AD68F1714174800D8BA56 /* NTmr8kp.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 0A0AD68E1714174800D8BA56 /* NTmr8kp.ttc */; };
+		0A73F44D170BCDAB00A756E9 /* DBCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A73F44C170BCDAB00A756E9 /* DBCommon.m */; };
+		0A73F44F170BCE2E00A756E9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A73F44E170BCE2E00A756E9 /* libsqlite3.dylib */; };
+		0A73F451170BCEE400A756E9 /* senpos.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0A73F450170BCEE400A756E9 /* senpos.sqlite */; };
+		1A59F33B170C309900256CC1 /* FunctionCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A59F33A170C309900256CC1 /* FunctionCommon.m */; };
+		1A618B5A170306380079FC7E /* uzura.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A618B591702F9840079FC7E /* uzura.ttf */; };
+		1A621B27170452BF00672E3B /* FontController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A621B26170452BF00672E3B /* FontController.m */; };
+		1AEBAA1E16FB14AD0099563C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEBAA1D16FB14AD0099563C /* UIKit.framework */; };
+		1AEBAA2016FB14AD0099563C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEBAA1F16FB14AD0099563C /* Foundation.framework */; };
+		1AEBAA2216FB14AD0099563C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEBAA2116FB14AD0099563C /* CoreGraphics.framework */; };
+		1AEBAA2816FB14AD0099563C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AEBAA2616FB14AD0099563C /* InfoPlist.strings */; };
+		1AEBAA2A16FB14AD0099563C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBAA2916FB14AD0099563C /* main.m */; };
+		1AEBAA3016FB14AD0099563C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEBAA2F16FB14AD0099563C /* Default.png */; };
+		1AEBAA3216FB14AD0099563C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEBAA3116FB14AD0099563C /* Default@2x.png */; };
+		1AEBAA3416FB14AD0099563C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEBAA3316FB14AD0099563C /* Default-568h@2x.png */; };
+		1AEBAA4716FB15630099563C /* SenPosMakerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBAA4216FB15630099563C /* SenPosMakerAppDelegate.m */; };
+		1AEBAA4816FB15630099563C /* SenPosMakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBAA4416FB15630099563C /* SenPosMakerViewController.m */; };
+		1AEBAA4916FB15630099563C /* SenPosMakerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEBAA4616FB15630099563C /* SenPosMakerViewController.xib */; };
+		1AEBAA4D16FB19580099563C /* AlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBAA4C16FB19580099563C /* AlertUtil.m */; };
+		1AEBAA5116FB24FE0099563C /* PosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEBAA4F16FB24FE0099563C /* PosterViewController.m */; };
+		1AEBAA5416FB25290099563C /* PosterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEBAA5316FB25290099563C /* PosterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0AD68E1714174800D8BA56 /* NTmr8kp.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = NTmr8kp.ttc; sourceTree = "<group>"; };
+		0A73F44B170BCDAB00A756E9 /* DBCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCommon.h; sourceTree = "<group>"; };
+		0A73F44C170BCDAB00A756E9 /* DBCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBCommon.m; sourceTree = "<group>"; };
+		0A73F44E170BCE2E00A756E9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0A73F450170BCEE400A756E9 /* senpos.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = senpos.sqlite; sourceTree = "<group>"; };
+		1A59F339170C309900256CC1 /* FunctionCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionCommon.h; sourceTree = "<group>"; };
+		1A59F33A170C309900256CC1 /* FunctionCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionCommon.m; sourceTree = "<group>"; };
+		1A618B591702F9840079FC7E /* uzura.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = uzura.ttf; sourceTree = "<group>"; };
+		1A621B25170452BF00672E3B /* FontController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontController.h; path = SenPosMaker/Common/FontController.h; sourceTree = SOURCE_ROOT; };
+		1A621B26170452BF00672E3B /* FontController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontController.m; path = SenPosMaker/Common/FontController.m; sourceTree = SOURCE_ROOT; };
+		1AEBAA1A16FB14AD0099563C /* SenPosMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenPosMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEBAA1D16FB14AD0099563C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AEBAA1F16FB14AD0099563C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AEBAA2116FB14AD0099563C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AEBAA2516FB14AD0099563C /* SenPosMaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SenPosMaker-Info.plist"; sourceTree = "<group>"; };
+		1AEBAA2716FB14AD0099563C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AEBAA2916FB14AD0099563C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AEBAA2B16FB14AD0099563C /* SenPosMaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SenPosMaker-Prefix.pch"; sourceTree = "<group>"; };
+		1AEBAA2F16FB14AD0099563C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1AEBAA3116FB14AD0099563C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1AEBAA3316FB14AD0099563C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1AEBAA4116FB15630099563C /* SenPosMakerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenPosMakerAppDelegate.h; sourceTree = "<group>"; };
+		1AEBAA4216FB15630099563C /* SenPosMakerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenPosMakerAppDelegate.m; sourceTree = "<group>"; };
+		1AEBAA4316FB15630099563C /* SenPosMakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenPosMakerViewController.h; sourceTree = "<group>"; };
+		1AEBAA4416FB15630099563C /* SenPosMakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenPosMakerViewController.m; sourceTree = "<group>"; };
+		1AEBAA4616FB15630099563C /* SenPosMakerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SenPosMakerViewController.xib; sourceTree = "<group>"; };
+		1AEBAA4B16FB19580099563C /* AlertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertUtil.h; sourceTree = "<group>"; };
+		1AEBAA4C16FB19580099563C /* AlertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertUtil.m; sourceTree = "<group>"; };
+		1AEBAA4E16FB24FE0099563C /* PosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PosterViewController.h; sourceTree = "<group>"; };
+		1AEBAA4F16FB24FE0099563C /* PosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PosterViewController.m; sourceTree = "<group>"; };
+		1AEBAA5316FB25290099563C /* PosterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PosterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AEBAA1716FB14AD0099563C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A73F44F170BCE2E00A756E9 /* libsqlite3.dylib in Frameworks */,
+				1AEBAA1E16FB14AD0099563C /* UIKit.framework in Frameworks */,
+				1AEBAA2016FB14AD0099563C /* Foundation.framework in Frameworks */,
+				1AEBAA2216FB14AD0099563C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEBAA1116FB14AD0099563C = {
+			isa = PBXGroup;
+			children = (
+				1AEBAA2316FB14AD0099563C /* SenPosMaker */,
+				1AEBAA1C16FB14AD0099563C /* Frameworks */,
+				1AEBAA1B16FB14AD0099563C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEBAA1B16FB14AD0099563C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AEBAA1A16FB14AD0099563C /* SenPosMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AEBAA1C16FB14AD0099563C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A73F44E170BCE2E00A756E9 /* libsqlite3.dylib */,
+				1AEBAA1D16FB14AD0099563C /* UIKit.framework */,
+				1AEBAA1F16FB14AD0099563C /* Foundation.framework */,
+				1AEBAA2116FB14AD0099563C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AEBAA2316FB14AD0099563C /* SenPosMaker */ = {
+			isa = PBXGroup;
+			children = (
+				1AEBAA4A16FB19580099563C /* Common */,
+				1AEBAA4016FB15630099563C /* Classes */,
+				1AEBAA4516FB15630099563C /* Resouces */,
+				1AEBAA2416FB14AD0099563C /* Supporting Files */,
+			);
+			path = SenPosMaker;
+			sourceTree = "<group>";
+		};
+		1AEBAA2416FB14AD0099563C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEBAA2516FB14AD0099563C /* SenPosMaker-Info.plist */,
+				1AEBAA2616FB14AD0099563C /* InfoPlist.strings */,
+				1AEBAA2916FB14AD0099563C /* main.m */,
+				1AEBAA2B16FB14AD0099563C /* SenPosMaker-Prefix.pch */,
+				1AEBAA2F16FB14AD0099563C /* Default.png */,
+				1AEBAA3116FB14AD0099563C /* Default@2x.png */,
+				1AEBAA3316FB14AD0099563C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AEBAA4016FB15630099563C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1AEBAA4116FB15630099563C /* SenPosMakerAppDelegate.h */,
+				1AEBAA4216FB15630099563C /* SenPosMakerAppDelegate.m */,
+				1AEBAA4316FB15630099563C /* SenPosMakerViewController.h */,
+				1AEBAA4416FB15630099563C /* SenPosMakerViewController.m */,
+				1AEBAA4E16FB24FE0099563C /* PosterViewController.h */,
+				1AEBAA4F16FB24FE0099563C /* PosterViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1AEBAA4516FB15630099563C /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				0A73F450170BCEE400A756E9 /* senpos.sqlite */,
+				0A0AD68E1714174800D8BA56 /* NTmr8kp.ttc */,
+				1A618B591702F9840079FC7E /* uzura.ttf */,
+				1AEBAA4616FB15630099563C /* SenPosMakerViewController.xib */,
+				1AEBAA5316FB25290099563C /* PosterViewController.xib */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		1AEBAA4A16FB19580099563C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0A73F44B170BCDAB00A756E9 /* DBCommon.h */,
+				0A73F44C170BCDAB00A756E9 /* DBCommon.m */,
+				1A621B25170452BF00672E3B /* FontController.h */,
+				1A621B26170452BF00672E3B /* FontController.m */,
+				1AEBAA4B16FB19580099563C /* AlertUtil.h */,
+				1AEBAA4C16FB19580099563C /* AlertUtil.m */,
+				1A59F339170C309900256CC1 /* FunctionCommon.h */,
+				1A59F33A170C309900256CC1 /* FunctionCommon.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AEBAA1916FB14AD0099563C /* SenPosMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEBAA3D16FB14AD0099563C /* Build configuration list for PBXNativeTarget "SenPosMaker" */;
+			buildPhases = (
+				1AEBAA1616FB14AD0099563C /* Sources */,
+				1AEBAA1716FB14AD0099563C /* Frameworks */,
+				1AEBAA1816FB14AD0099563C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SenPosMaker;
+			productName = SenPosMaker;
+			productReference = 1AEBAA1A16FB14AD0099563C /* SenPosMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AEBAA1216FB14AD0099563C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SenPosMaker;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "田中郁也";
+				TargetAttributes = {
+					1AEBAA1916FB14AD0099563C = {
+						DevelopmentTeam = 6324TA3NP6;
+					};
+				};
+			};
+			buildConfigurationList = 1AEBAA1516FB14AD0099563C /* Build configuration list for PBXProject "SenPosMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 1AEBAA1116FB14AD0099563C;
+			productRefGroup = 1AEBAA1B16FB14AD0099563C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AEBAA1916FB14AD0099563C /* SenPosMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AEBAA1816FB14AD0099563C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A618B5A170306380079FC7E /* uzura.ttf in Resources */,
+				1AEBAA2816FB14AD0099563C /* InfoPlist.strings in Resources */,
+				1AEBAA3016FB14AD0099563C /* Default.png in Resources */,
+				1AEBAA3216FB14AD0099563C /* Default@2x.png in Resources */,
+				1AEBAA3416FB14AD0099563C /* Default-568h@2x.png in Resources */,
+				1AEBAA4916FB15630099563C /* SenPosMakerViewController.xib in Resources */,
+				1AEBAA5416FB25290099563C /* PosterViewController.xib in Resources */,
+				0A73F451170BCEE400A756E9 /* senpos.sqlite in Resources */,
+				0A0AD68F1714174800D8BA56 /* NTmr8kp.ttc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AEBAA1616FB14AD0099563C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEBAA2A16FB14AD0099563C /* main.m in Sources */,
+				1AEBAA4716FB15630099563C /* SenPosMakerAppDelegate.m in Sources */,
+				1AEBAA4816FB15630099563C /* SenPosMakerViewController.m in Sources */,
+				1AEBAA4D16FB19580099563C /* AlertUtil.m in Sources */,
+				1AEBAA5116FB24FE0099563C /* PosterViewController.m in Sources */,
+				1A621B27170452BF00672E3B /* FontController.m in Sources */,
+				0A73F44D170BCDAB00A756E9 /* DBCommon.m in Sources */,
+				1A59F33B170C309900256CC1 /* FunctionCommon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AEBAA2616FB14AD0099563C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEBAA2716FB14AD0099563C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AEBAA3B16FB14AD0099563C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Youichi Okamoto (9M87A6422G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Youichi Okamoto (9M87A6422G)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6874355E-FEFA-44D8-BA2E-4E5452D29E3E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6874355E-FEFA-44D8-BA2E-4E5452D29E3E";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AEBAA3C16FB14AD0099563C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Youichi Okamoto (9M87A6422G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Youichi Okamoto (9M87A6422G)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6874355E-FEFA-44D8-BA2E-4E5452D29E3E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6874355E-FEFA-44D8-BA2E-4E5452D29E3E";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AEBAA3E16FB14AD0099563C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SenPosMaker/SenPosMaker-Prefix.pch";
+				INFOPLIST_FILE = "SenPosMaker/SenPosMaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.itanaka730.SenPosMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AEBAA3F16FB14AD0099563C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SenPosMaker/SenPosMaker-Prefix.pch";
+				INFOPLIST_FILE = "SenPosMaker/SenPosMaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.itanaka730.SenPosMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEBAA1516FB14AD0099563C /* Build configuration list for PBXProject "SenPosMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEBAA3B16FB14AD0099563C /* Debug */,
+				1AEBAA3C16FB14AD0099563C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEBAA3D16FB14AD0099563C /* Build configuration list for PBXNativeTarget "SenPosMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEBAA3E16FB14AD0099563C /* Debug */,
+				1AEBAA3F16FB14AD0099563C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AEBAA1216FB14AD0099563C /* Project object */;
+}
